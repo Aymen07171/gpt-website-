@@ -1,0 +1,19 @@
+{
+  "name": "modern-pizza",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build public/index.html"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "tailwindcss": "^2.2.16"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0",
+    "process": "^0.11.10"
+  }
+}
